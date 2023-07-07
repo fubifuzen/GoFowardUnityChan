@@ -924,8 +924,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48ad86d4cdb8342e787ebc1da41a91f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cubeCollisionAudio: {fileID: 0}
-  groundCollisionAudio: {fileID: 0}
+  block: {fileID: 0}
 --- !u!4 &1577197430
 Transform:
   m_ObjectHideFlags: 0
@@ -1082,7 +1081,7 @@ GameObject:
   - component: {fileID: 1912290681}
   m_Layer: 0
   m_Name: ground
-  m_TagString: Untagged
+  m_TagString: GroundTag
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
